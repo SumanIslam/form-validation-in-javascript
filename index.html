@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- adding css -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Form validation</title>
+</head>
+
+<body>
+  <h1>New User Signup</h1>
+  <form>
+    <input type="text" name="username" placeholder="username...">
+    <p>Username must be alphanumeric and contains 5-12 characters</p>
+
+    <input type="email" name="email" placeholder="email...">
+    <p>email must be a valid address e.g. abc@something.com</p>
+
+    <input type="password" name="password" placeholder="password..">
+    <p>password must be alphanumeric(@,_,- are also allowed) and be 8-20 characters long</p>
+
+    <input type="telephone" name="telephone" placeholder="telephone...">
+    <p>telephone must be a valid BD telephone number (11 digit)</p>
+
+    <input type="button" value="submit">
+  </form>
+</body>
+
+<script src="main.js"></script>
+
+</html>
